@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/jpg" href="icon.jpg"/>
+    <link rel="stylesheet" href="#">
+	<title>Sign_up</title>
+    <style>
+		body{
+			background-color: #344a72;
+			font-family:'roboto', sans-serif;
+		}
+		.signup{
+			width: 360px;
+			height: 620px;
+			margin: auto;
+			background-color: white;
+			border-radius: 5px;
+
+		}
+		h1{
+			text-align: center;
+			padding-top: 15px;
+		}
+		h4{
+		text-align: center;
+		
+		}
+		form{
+			width: 300px;
+			margin-left: 20px;
+		}
+		form label{
+			display: flex;
+			margin-top: 20px;
+			font-size: 18px;
+		}
+		form input{
+			width: 100%;
+			padding: 7px;
+			border: none;
+			border: 1px solid gray; ;
+			border-radius: 5px;
+			outline: none;
+		}
+		input[type="button"]{
+			width: 320px;
+			height: 35px;
+			margin-top: 20px;
+			border:none;
+			background-color: #49c1a2;
+			color: white;
+			font-size: 20px;
+
+		}
+		p{
+			text-align:center;
+			padding-top: 20px;
+			font-size: 15px;
+		}
+
+	.para-2{
+		text-align: center;
+		color: white;
+		font-size: 15px;
+		margin-top: -10px;
+	}
+	.para-2 a{
+		color: rgb(153, 59, 59);
+	}
+
+	</style>
+       
+	
+</head>
+<body>
+	<div class="signup">
+		<h1>Personal information</h1>
+		<h4>fill up the form and choose your signs</h4>
+		<hr>
+		<form action="new.php" method="post" align="center" id="login" onsubmit="return show()">
+			<label for="">First Name</label>
+			<input type="text" placeholder="">
+			<label for="">Last Name</label>
+			<input type="text" placeholder="">
+			<label for="">E-mail</label>
+			<input type="text" placeholder="">
+			<label for="">Date of birth</label>
+			<input type="text" placeholder="Day-Month-Year">
+			
+			<br><br><br>
+		Zodiac :
+		<select name="city" onchange="show()">
+			<option value="">---zodiac signs---</option>
+			<option value="bnglr">Aries</option>
+			<option value="mumb">capricorn</option>
+			<option value="chn">Taurus</option>
+			<option value="mysr">Cancer</option>
+			<option value="mysr">Leo</option>
+			<option value="mysr">Virgo</option>
+			<option value="mysr">Libra</option>
+			<option value="mysr">Scorpio</option>
+			<option value="mysr">Sagittarius</option>
+			<option value="mysr">Aquarius</option>
+			<option value="mysr">Pisces</option>
+		</select>
+		<input type="button" value="Submit">
+		<br/><br/>
+		</form>
+		<p class="para-2">by clicking the Sign up button, you agree to our <br> <a href="">Terms annd conditions</a>and <a href="">Policy & Privacy</a></p>
+
+
+	</div>
+	
+	
+	</script>
+</body>
+</html>

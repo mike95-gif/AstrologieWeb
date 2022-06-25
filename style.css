@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252a;
+}
+li, a, button{
+    font-family: "montserrat",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.top_page
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+	
+}
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+
+}
+.nav_links{
+    text-decoration: none;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px; 
+}
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+    color:#0088a9;
+}
+button{
+    margin-left: 25px;
+    padding: 9px 25px;
+    background-color:  rgb(0, 136, 169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color:  rgb(0, 136, 169,1);
+}
+    
+
+    #txt
+		{
+				font-size:25px;
+				background-image:url(Image/search.png);
+				background-size:18px;
+				background-repeat:no-repeat;
+				background-position:center right;
+			    padding-right:40px;
+		}
+    
+    .slider{
+    
+    width: 1500px;
+    height: 800px;
+    background: url(images/back2.jpg);
+    margin: 100px auto;
+    border-radius: 20px;
+    animation: slide 50s infinite;
+    }
+    @keyframes slide{
+        25%{
+            background: url(images/back2.jpg);
+        }
+        50%{
+            background: url(images/back3.jpg);
+        }
+        75%{
+            background: url(images/back4.jpg);
+        }
+        100%{
+            background: url(images/back5.jpg);
+        }
+        
+    }
+    .down_page{
+    background-color:rgb(51, 48, 48) ;
+    max-width: 1200px;
+    margin: auto; 
+    overflow: auto;
+    }
+    .gallery{
+        margin: 2px;
+        border: 1px solid #ccc;
+        float:left;
+        width: 390px; 
+        padding: 10px 10px;   
+    }
+    .gallery img{
+        width: 100px;
+        height: auto;
+        border-radius: 50px;
+        margin: auto;
+        justify-content: center;
+        align-items:center;
+    }
+    .desc{
+        padding: 5px;
+        text-align: center;
+    }
+    .foot_page{
+    background-color: #24252a;
+    padding:10px;
+	font-size:13px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+
+    }
+   
+    .content-text
+    {
+        max-width: 1500px;
+        margin: auto; 
+        overflow: auto;    
+    }
+    .box{
+                width:1500px;
+				height:180px;
+				padding:15px 5px;
+				text-align:justify;
+                font-size: 15px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                color: rgb(101, 178, 241);
+               
+
+    }
